@@ -1,0 +1,46 @@
+* {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+		font-family: 'Droid Serif', serif;
+}
+
+#header-container {
+		width: 100%;
+		height: 25px;
+		margin: 0 0 100px 0;
+}
+
+
+#nav {	
+		float: right;
+		display: flex;
+		list-style-type: none;
+		margin: 7px 15px 0 0;
+		padding: auto;
+
+}
+
+.header {
+		display: inline-block;
+		margin-right: 10px;
+}
+
+#search-bar {
+		margin: 100px 0 0 0;
+}
+
+#logo {
+		display:block;
+		margin: 0 auto;
+}
+
+input[type=text] {
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	height: 30px;
+	border-color: #4093E6;
+	border-width: 1px;
+}
